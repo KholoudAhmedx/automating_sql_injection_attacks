@@ -58,7 +58,8 @@ The script outputs results directly to the terminal. For example, it might displ
 - **Web Security Academy - SQL Injection (Long Version) By Rana Khalil**</br>
   - <a href="https://www.youtube.com/watch?v=1nJgupaUPEQ&list=PLuyTk2_mYISLaZC4fVqDuW_hOk0dd5rlf">Web Security Academy - SQL Injection (Long Version) By Rana Khalil</a> on YouTube offers an in-depth, long-form series on SQL injection attacks.</br>
   Her tutorials provided detailed explanations and practical demonstrations that were essential in helping build and refine these automation scripts.
-
+- **SQL Injection Cheat sheet**
+  - <a href="https://portswigger.net/web-security/sql-injection/cheat-sheet"> SQL Injection Cheat sheet </a> was a  key resource for understanding various SQL injection techniques and payloads.
 # Notes
 - Lab Naming Convention</br>
   Each script in this repository is named according to the corresponding lab number from PortSwigger’s SQL Injection labs. For instance, `sql_lab_12.py` refers to Lab #12 in the PortSwigger SQL Injection section. This naming convention helps to identify and match the script with the specific lab it automates.
