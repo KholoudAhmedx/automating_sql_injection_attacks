@@ -29,8 +29,8 @@ These labs are designed for educational purposes to improve skills in detecting 
 # Setup
 1. Clone the repository
 ```
-git clone https://github.com/yourusername/port_swigger_sqli_automation.git
-cd port_swigger_sqli_automation
+git clone https://github.com/KholoudAhmedx/automating_sql_injection_attacks.git
+cd automating_sql_injection_attacks.git
 ```
 2. Configure Lab Details: </br>
 Open the main script file (e.g., `sqli_automation.py`). </br>
@@ -49,7 +49,7 @@ python3 <script_name.py> <url>
 python3 sqli_lab_12.py "https://0ac9008403d9975e808c67630012004b.web-security-academy.net/"
 ```
 2. Specify Target and Payloads:</br>
-Modify the target URL directly through command-line arguments.
+Modify the target URL and payloads directly in the script or through command-line arguments if the script supports it.</br>
 The script will send SQL injection payloads and analyze responses to determine if the injection was successful.
 3. Monitor Output: </br>
 The script outputs results directly to the terminal. For example, it might display whether each payload was successful and any extracted data.
